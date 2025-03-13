@@ -1,0 +1,16 @@
+[tools]
+awscli = "2.24"
+gh = "2.68"
+python = "3.12"
+terraform = "1.11"
+
+[settings]
+python.uv_venv_auto = true
+
+[tasks."aws:login"]
+description = "Loging to AWS SSO Profile"
+run = "aws sso login --profile $AWS_PROFILE_NAME"
+
+[env]
+AWS_PROFILE_NAME = "kastagh"
+TF_VAR_aws_profile_name = "kastagh"

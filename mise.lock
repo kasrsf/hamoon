@@ -1,0 +1,24 @@
+[tools.awscli]
+version = "2.24.21"
+backend = "aqua:aws/aws-cli"
+
+[tools.awscli.checksums]
+"AWSCLIV2-2.24.21.pkg" = "sha256:fb7e1acbf02637ab698b3b113aaaafef84ef19565c341b3f42eef4ba386bc19a"
+
+[tools.gh]
+version = "2.68.1"
+backend = "aqua:cli/cli"
+
+[tools.gh.checksums]
+"gh_2.68.1_macOS_arm64.zip" = "sha256:801797ffc65072fb872865922f9b532795cd95872b1db161e987f25ce89baafe"
+
+[tools.python]
+version = "3.12.0"
+backend = "core:python"
+
+[tools.terraform]
+version = "1.11.1"
+backend = "aqua:hashicorp/terraform"
+
+[tools.terraform.checksums]
+"terraform_1.11.1_darwin_arm64.zip" = "sha256:94edba167cb2f6428fe849688af67b2a91696be4dc1152b6ac94487d826ec8e6"
