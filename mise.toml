@@ -13,4 +13,5 @@ run = "aws sso login --profile $AWS_PROFILE_NAME"
 
 [env]
 AWS_PROFILE_NAME = "kastagh"
+AWS_PROFILE = "kastagh"
 TF_VAR_aws_profile_name = "kastagh"
